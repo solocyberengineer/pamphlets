@@ -19,9 +19,10 @@ function setupBrand(brand, catIndex=0){
     let products = brandData.categories[ catergories[catIndex] ];
     console.log( brandData.categories[ catergories[catIndex] ] );
     for( let iter = 0; iter < pageTotalProducts; iter++ ){
+        let page;
         if( (iter % pageTotalProducts) == 0 ){
             console.log(products[iter]);
-            let page = createPage( brand, catergories[catIndex] );
+            page = createPage( brand, catergories[catIndex] );
             page.addPage()
         }
     }
