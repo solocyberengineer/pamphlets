@@ -7,6 +7,27 @@
     padding: 0.5cm;
 }
 
+.brand {
+    height: 15%;
+}
+.products {
+    height: calc(100% - 15%);
+}
+.product-row {
+    height: 33.33%;
+}
+.product-layout {
+    width: 33.33%;
+}
+.img-container {
+    aspect-ratio: 1/0.8;
+    background-color: white;
+    background-image: url('https://cdn-prd-02.pnp.co.za/sys-master/images/h10/h7a/11272996683806/silo-product-image-v2-28Sep2023-180420-6001324906348-Straight_on-177274-1874_400Wx400H');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 @page {
     size: A4;
     margin: 0;
